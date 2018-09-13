@@ -43,7 +43,7 @@ framework: {
     <q-select
       multiple
       toggle
-      v-model="multipleSelect"
+      :value="multipleSelect"
       :options="selectOptions"
       @change="inputChange"
     />
